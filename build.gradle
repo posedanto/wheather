@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+ext {
+    API_URL = "http://dataservice.accuweather.com/"
+    API_KEY = "j3bNlPGWyQa0DCQgFeQXAfnGRLIEYvOw"
+
+    targetVersion = 28
+    compileVersion = 28
+    minVersion = 19
+
+    supportVersion = "28.0.0"
+    constraintVersion = "1.1.3"
+
+    daggerVersion = "2.15"
+    retrofitVersion = "2.4.0"
+    roomVersion = "1.1.1"
+
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Damn Weather</string>
+    <string name="search_hint">Search city</string>
+
+    <string name="real_feel">Real feel</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Relative Humidity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>
